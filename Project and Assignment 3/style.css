@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    /* font-family: "Red Rose", cursive; */
+    /* height: 100vh; */
+   
+    
+    
+}
+
+body{
+    background-image: url(pexels-maxyne-barcel-10402282\ 1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: hidden;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;  
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+nav ul li{
+    color: yellow;
+    font-family: "Red Rose";
+    color: #ffc233;
+    line-height: 22px;
+}
+nav button{
+    padding: 10px 30px 10px;
+    size: 10;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    background-color: red;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 30px;
+}
+
+div h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 73px;
+    font-size: 75px;
+    color: yellow;
+    font-weight: 700;
+    /* line-height: 114px; */
+    font-family: "Dela Gothic One", cursive;
+}
+center button{
+    padding: 10px 25px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50%;
+}
+footer img{
+    padding: 0px 20px 0% 100px;
+    height: 120%;
+    
+}
